@@ -7,15 +7,25 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
+    "android": {
+      "package": "com.seunome.alertbell"
+    },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.seunome.alertbell"
+    }
+    "ios": {
+      "supportsTablet": true,
+      "package": 'bundle'
     },
     "android": {
+      "package": "com.seunome.alertbell",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
