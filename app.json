@@ -13,19 +13,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
-    "android": {
-      "package": "com.seunome.alertbell"
-    },
-    "ios": {
-      "bundleIdentifier": "com.seunome.alertbell"
-    }
     "ios": {
       "supportsTablet": true,
-      "package": 'bundle'
+      "bundleIdentifier": "com.olavoancay.alertbell"
     },
     "android": {
-      "package": "com.seunome.alertbell",
+      "package": "com.olavoancay.alertbell",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
